@@ -11,6 +11,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* if (n > 0) - positive
 	 * if (n = 0) - 0
-	 * if (n < 0) - negative */
+	 * if (n < 0) - negative 
+	 * */
 	return (0);
 }
