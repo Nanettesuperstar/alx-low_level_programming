@@ -6,7 +6,7 @@
  * Description:last digit
  * Return: always 0
  */
-main; int(void)
+int main(void)
 {
 	int n;
 	int ld;
@@ -17,11 +17,13 @@ main; int(void)
 		if (ld > 5)
 		{
 			printf("Last digit of %d is %d and is greater that 5\n",
-					} else if (ld == 0)
+					}
+					else if (ld == 0)
 					{
 					printf("Last digit of %d is %d and is 0\n", n, ld);
 					{
 					else
+					{
 					printf("Last digit of %d is %d and is less than 6 and not")
 					}
 					return (0);
