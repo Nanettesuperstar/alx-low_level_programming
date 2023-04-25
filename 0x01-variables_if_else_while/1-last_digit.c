@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - print last digit of a generated number randomly
+ * if it is greater than 5, zero or less than 6
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
