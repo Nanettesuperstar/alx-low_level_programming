@@ -1,17 +1,27 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* main - Entry point */
-
-/* betty coding style */
+/**
+ * main -Entry point
+ * Description: check if the number is positive or negative
+ * Return 0 always
+ */
 int main(void)
-{
-	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* if (int n > 0) - positive
-	 * if (int n = 0) - 0
-	 * if (int n < 0) - negative
-	 * */
-	return (0);
+int n:
+
+strand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+{
+printf("%d is positive\n", n);
 }
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
+else
+{
+printf("%d is negative\n", n);
+}
+return (0)
