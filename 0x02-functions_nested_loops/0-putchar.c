@@ -1,14 +1,21 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-/**
- * main - Entry point
- * Description: print _putchar and follow by a new line
- * Return 0 always
- */
-int main(int)
-{
-	printf("_putchar %d, \n");
-	return (0);
-}
+#include "main.h"
+	/**
+	 * main - print _putchar and follow with a new line
+	 * is written by mbah
+	 * Return: 0
+	 */
 
+
+	int main(void)
+	{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+	}
